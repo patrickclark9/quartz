@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: patrickclark9.github.io/quartz-publish
+  baseUrl: patrickclark9.github.io/quartz
   ignorePatterns:
     - private
     - templates
@@ -132,7 +132,7 @@ plugins:
     enabled: true
     options:
       enableSiteMap: true
-      enableRSS: true
+      enableRSS: false
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
